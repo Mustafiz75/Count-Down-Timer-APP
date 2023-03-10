@@ -1,0 +1,45 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;1,400&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-image: url(images/sid-balachandran-bD5-Xbl8nvE-unsplash.jpg);
+  font-family: "Poppins", sans-serif;
+  color: whitesmoke;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-position: center;
+  background-size: cover;
+  background-repeat: none;
+  min-height: 100vh;
+}
+h1 {
+  font-weight: normal;
+  font-size: 5.5rem;
+  margin-top: -15rem;
+  margin-bottom: 2rem;
+  color: crimson;
+}
+.countdown-container {
+  display: flex;
+  color: rgb(200, 54, 219);
+  flex-wrap: wrap;
+  align-items: center;
+}
+.bigtext {
+  font-weight: bold;
+  font-size: 6.4rem;
+  line-height: 1;
+  margin: 0 6rem;
+}
+.countdownEl {
+  text-align: center;
+}
+.countdownEl span {
+  font-size: 2.4rem;
+}
